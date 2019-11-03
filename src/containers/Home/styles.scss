@@ -1,0 +1,38 @@
+
+.box1{
+    height: 100%;
+    width: 100%;
+}
+
+.box2{
+    height: 80%;
+    width: 80%;
+    background-size: cover;
+    border-radius: 25% 0;
+}
+
+.box3{
+    width: 50vh;
+    height: 60vh;
+    background-size: cover;
+}
+
+.light-icon{
+    position: absolute;
+    width: 65px;
+    height: 65px;
+    cursor: pointer;
+    left: 19vh;
+    top: 19vh;
+    border: solid 1px;
+    border-radius: 18px;
+    box-shadow: 1px 1px 5px;
+    padding: 4px;
+    &:hover{
+        border: solid 1px;
+        border-radius: 18px;
+        box-shadow: 1px 1px 5px;
+        padding: 4px;
+        transform: scale(1.5,1.5);
+    }
+}
